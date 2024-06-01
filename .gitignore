@@ -2,3 +2,4 @@ node_modules
 .firebase
 cache-parcel
 dist
+images
