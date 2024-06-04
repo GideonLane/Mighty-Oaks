@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: solid 2px skyblue;
+}
+body {
+    height: 3000px;
+    overflow-x: hidden;
+    background-color: rgb(27, 20, 11);
+}
+.bg-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+.navbar {
+    transition: .3s ease-in-out;
+    #navbar-brand {
+        margin-right: 35%;
+        margin-left: 20px;
+        font-size: 30px;
+        color: white;
+    }
+    #nav-item {
+        .nav-link {
+            color: white;
+            padding: 20px 40px;
+            font-size: 20px;
+        }
+    }
+    span {
+        position: relative;
+        display: block;
+        a {
+            position: absolute;
+            top: -20px;
+            left: 400px;
+            .fa-instagram {
+                color: white;
+                font-size: 40px;
+            }
+        }
+    }
+}
+//class for javascript scroll effect
+.navbar-scrolled {
+    background-color: rgb(27, 20, 11);
+    box-shadow: 0 3px 12px rgb(0, 0, 0, 0.30);
+}
+//contact contianer
+.contact-container {
+    margin-top: 7rem;
+    margin-left: 2rem;
+    .contact {
+        color: white;
+    }
+}
+/*
+.togglemargin {
+    margin-top: 20rem;
+*/
+//arrow container section
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    height: 24%;
+    .review-btn {
+        background-color: transparent;
+        width: 300px;
+        height: 120px;
+
+        a {
+            text-decoration: underline 2px solid white;
+            color: white;
+            h3 {
+                font-size: 40px;
+            }
+            .fa-arrow-down {
+                font-size: 40px;
+            }
+        }
+    }
+}
+//review container
+#reviews {
+    .review {
+        border: solid 4px white;
+        border-radius: 15px;
+        color: white;
+        .image-container-logo {
+            .img-logo {
+                clip-path: circle(40%);
+                height: 50px;
+            }
+        }
+    }
+    .review-1, .review-3 {
+        margin: 20px;
+    }
+    .review-1, .review-2 {
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

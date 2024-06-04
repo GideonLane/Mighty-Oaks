@@ -1,1 +1,109 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: solid 2px skyblue;
+}
+
+body {
+  height: 3000px;
+  overflow-x: hidden;
+  background-color: rgb(27, 20, 11);
+}
+
+.bg-image {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+
+.navbar {
+  transition: 0.3s ease-in-out;
+}
+.navbar #navbar-brand {
+  margin-right: 35%;
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+.navbar #nav-item .nav-link {
+  color: white;
+  padding: 20px 40px;
+  font-size: 20px;
+}
+.navbar span {
+  position: relative;
+  display: block;
+}
+.navbar span a {
+  position: absolute;
+  top: -20px;
+  left: 400px;
+}
+.navbar span a .fa-instagram {
+  color: white;
+  font-size: 40px;
+}
+
+.navbar-scrolled {
+  background-color: rgb(27, 20, 11);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+}
+
+.contact-container {
+  margin-top: 7rem;
+  margin-left: 2rem;
+}
+.contact-container .contact {
+  color: white;
+}
+
+/*
+.togglemargin {
+    margin-top: 20rem;
+*/
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 24%;
+}
+.arrow-container .review-btn {
+  background-color: transparent;
+  width: 300px;
+  height: 120px;
+}
+.arrow-container .review-btn a {
+  -webkit-text-decoration: underline 2px solid white;
+          text-decoration: underline 2px solid white;
+  color: white;
+}
+.arrow-container .review-btn a h3 {
+  font-size: 40px;
+}
+.arrow-container .review-btn a .fa-arrow-down {
+  font-size: 40px;
+}
+
+#reviews .review {
+  border: solid 4px white;
+  border-radius: 15px;
+  color: white;
+}
+#reviews .review .image-container-logo .img-logo {
+  -webkit-clip-path: circle(40%);
+          clip-path: circle(40%);
+  height: 50px;
+}
+#reviews .review-1, #reviews .review-3 {
+  margin: 20px;
+}
+#reviews .review-1, #reviews .review-2 {
+  margin-bottom: 100px;
+}/*# sourceMappingURL=index.css.map */
